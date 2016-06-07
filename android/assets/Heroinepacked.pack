@@ -1,0 +1,117 @@
+
+Heroinepacked.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Down4
+  rotate: false
+  xy: 1, 1
+  size: 25, 45
+  orig: 25, 45
+  offset: 0, 0
+  index: -1
+Down1
+  rotate: false
+  xy: 28, 2
+  size: 25, 44
+  orig: 25, 44
+  offset: 0, 0
+  index: -1
+Left3
+  rotate: false
+  xy: 55, 3
+  size: 26, 43
+  orig: 26, 43
+  offset: 0, 0
+  index: -1
+Right3
+  rotate: false
+  xy: 83, 3
+  size: 26, 43
+  orig: 26, 43
+  offset: 0, 0
+  index: -1
+Up1
+  rotate: false
+  xy: 111, 2
+  size: 25, 44
+  orig: 25, 44
+  offset: 0, 0
+  index: -1
+Up2
+  rotate: false
+  xy: 138, 2
+  size: 25, 44
+  orig: 25, 44
+  offset: 0, 0
+  index: -1
+Down2
+  rotate: false
+  xy: 165, 2
+  size: 24, 44
+  orig: 24, 44
+  offset: 0, 0
+  index: -1
+Down3
+  rotate: false
+  xy: 191, 3
+  size: 24, 43
+  orig: 24, 43
+  offset: 0, 0
+  index: -1
+Up3
+  rotate: false
+  xy: 217, 3
+  size: 24, 43
+  orig: 24, 43
+  offset: 0, 0
+  index: -1
+Up4
+  rotate: false
+  xy: 243, 3
+  size: 24, 43
+  orig: 24, 43
+  offset: 0, 0
+  index: -1
+Left1
+  rotate: false
+  xy: 269, 3
+  size: 23, 43
+  orig: 23, 43
+  offset: 0, 0
+  index: -1
+Left2
+  rotate: false
+  xy: 294, 3
+  size: 23, 43
+  orig: 23, 43
+  offset: 0, 0
+  index: -1
+Right1
+  rotate: false
+  xy: 319, 3
+  size: 23, 43
+  orig: 23, 43
+  offset: 0, 0
+  index: -1
+Right2
+  rotate: false
+  xy: 319, 3
+  size: 23, 43
+  orig: 23, 43
+  offset: 0, 0
+  index: -1
+Right4
+  rotate: false
+  xy: 344, 4
+  size: 23, 42
+  orig: 23, 42
+  offset: 0, 0
+  index: -1
+Left4
+  rotate: false
+  xy: 369, 4
+  size: 22, 42
+  orig: 22, 42
+  offset: 0, 0
+  index: -1
