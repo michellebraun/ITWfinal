@@ -136,10 +136,6 @@ public class ScreenITW implements Screen {
 
 	@Override
 	public void render(float delta) {
-		//for some Reason the stage is getting a null pointer I don't know why
-//		stgIntoTheWoods= new StgIntoTheWoods();
-//		stgIntoTheWoods.draw();
-//		stgIntoTheWoods.act();
 		//Rendering Sprite
 		if (fTime < 4) {
 			fTime += Gdx.graphics.getDeltaTime();
@@ -241,6 +237,8 @@ public class ScreenITW implements Screen {
 			}
 
 		}
+		stgIntoTheWoods.act();
+		stgIntoTheWoods.draw();
 
 	}
 	
