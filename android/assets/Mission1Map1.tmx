@@ -173,7 +173,7 @@
   <object id="27" x="280" y="836.667" width="58.6667" height="49.3333"/>
   <object id="28" x="482.667" y="838" width="58.6667" height="49.3333"/>
  </objectgroup>
- <layer name="Enemies" width="30" height="30">
+ <layer name="Enemy Sprites" width="30" height="30">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

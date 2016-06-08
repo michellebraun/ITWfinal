@@ -31,9 +31,9 @@ public class StgIntoTheWoods extends Stage{
         actChar= new ActChar();
         dPad= new DPad(actChar);
         tbsMenu = new TbsMenu(fonts);
-        actTiledMaps= new ActTiledMaps();
+//        actTiledMaps= new ActTiledMaps();
         this.addActor(actChar);
-        this.addActor(actTiledMaps);
+//        this.addActor(actTiledMaps);
         this.addActor(dPad.imgOutline);
         for (int i = 0; i < 4; i++) {
             this.addActor(dPad.ibDir[i]);

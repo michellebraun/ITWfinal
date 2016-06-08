@@ -7,6 +7,7 @@ import com.mygdx.game.Screens.ScrLose;
 import com.mygdx.game.Screens.ScrMain;
 import com.mygdx.game.Screens.ScrWeapons;
 import com.mygdx.game.Screens.ScrWin;
+import com.mygdx.game.Screens.ScreenITW;
 import com.mygdx.game.StageActors.Dialog;
 import com.mygdx.game.StageActors.HealthBar;
 import com.mygdx.game.TextButtons.TbsDialog;
@@ -24,6 +25,7 @@ public class GamITW extends Game {
 	Dialog dialog;
 	TbsMenu tbsMenu;
 	TbsDialog tbsDialog;
+	ScreenITW screenITW;
 	public enum GameState {
 		MENU, GAME, BATTLE, WIN, WEAPONS,LOSE
 	}
@@ -32,7 +34,7 @@ public class GamITW extends Game {
 		if(currentState==GameState.MENU){
 			setScreen(scrMain);
 		}else if(currentState==GameState.GAME) {
-			setScreen(scrIntoTheWoods);
+			setScreen(screenITW);
 		}
 		else if(currentState==GameState.BATTLE){
 			setScreen(scrBattle);
@@ -54,6 +56,7 @@ public class GamITW extends Game {
 	public void create () {
 		setScreen(new ScrIntoTheWoods(this, fonts));
 		scrMain = new ScrMain(this,fonts);
+		screenITW= new ScreenITW(this);
 		scrIntoTheWoods = new ScrIntoTheWoods(this,fonts);
 		scrBattle = new ScrBattle(this, healthBar, fonts, dialog);
 		scrWin = new ScrWin(this, fonts);

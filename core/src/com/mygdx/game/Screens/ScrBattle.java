@@ -82,7 +82,7 @@ public class ScrBattle implements Screen {
                 txEnemyHealth = healthBar.HealthColour(nEnemyHealth);
                 System.out.println("Enemy: "+nEnemyHealth);
                 sEnemy = "Witch's Health: "+ nEnemyHealth;
-                i = (int)(Math.random() * 9 +0);
+                i = (int)(Math.random() * 9);
 
                 Scanner sParse = new Scanner(sFile);
                 for (int k= 0; sParse.hasNext(); k++) {
@@ -105,7 +105,7 @@ public class ScrBattle implements Screen {
                         @Override
                         public void run() {
                             tbDialog.remove();
-                            int nDamage = (int )(Math.random() * 25 + 10);
+                            int nDamage = (int )(Math.random() * 25 + 5);
                             nHeroHealth = nHeroHealth-nDamage;
                             txHeroHealth = healthBar.HealthColour(nHeroHealth);
                             System.out.println("Hero: "+nHeroHealth);
